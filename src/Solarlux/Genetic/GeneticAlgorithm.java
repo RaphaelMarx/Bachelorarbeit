@@ -284,7 +284,6 @@ public class GeneticAlgorithm {
             boolean added = false;
             for (int j = 0; j < numberOfElements; j++) {
                 if (childBinRepresentation[j] == -1 && binRep2[j] == search) {
-                    //if(j == 65) System.out.println("Nr2: " + i + binNumberAdd);
                     childBinRepresentation[j] = (i + binNumberAdd);
                     if (!childBinGrouping.contains(i + binNumberAdd)) {
                         childBinGrouping.add(i + binNumberAdd);
